@@ -1,0 +1,17 @@
+.section-container {
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.section-title{
+    font-family: 'Playfair Display';
+    font-size: 25px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: var(--accent-secondary)
+}
+.section-items{
+    display : flex;
+}

@@ -1,16 +1,21 @@
-function Section({ section_title }) {
-  // destructing propos
-  // const section_title = props.section_title
-  // const {section_title} = props
-  // guard opertor &&
+import './Section.css'
+
+function Section({ title, items }) {
   return (
-    <>
-      <h2 className="section-title"> {section_title} </h2>
-      {section_title === 'Places to Visit' && (
-        <div> places carousel items </div>
-      )}
-      {section_title === 'Hobbies' && <div> Hobbies carousel items </div>}
-    </>
+    <div className="section-container">
+      <h2 className="section-title"> {title} </h2>
+      <div className="section-items">
+      {items.map((item) => {
+        return (
+          <div key={item.name}>
+            <h3>{item.name}</h3>
+            <img src={item.image} alt={item.name + " photo"}/>
+            <p>{item.summary}</p>
+          </div>
+        )
+      })}
+      </div>
+    </div>
   )
 }
 

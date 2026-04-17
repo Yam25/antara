@@ -1,0 +1,13 @@
+.header-container {
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    max-width: fit-content;
+}
+
+.header-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
