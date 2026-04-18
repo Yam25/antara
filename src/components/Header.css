@@ -9,6 +9,9 @@
 .title {
   font-family: 'Playfair Display', serif;
   font-size: 35px;
+  color:var(--text-primary);
+  font-weight: lighter;
+
 }
 
 .nav-links {
@@ -16,18 +19,19 @@
   gap: 20px;
 }
 
-.nav-links a {
+/* .nav-links a {
   text-decoration: none;
-  color: var(--text-primary);
+  color: var(--primary-500);
   font-size: 20px;
   padding: 15px 30px;
-}
+  cursor: pointer;
+} */
 
 .nav-links i {
   margin-left: 10px;
 }
 
-.contact {
+.contact, .nav-links a {
   color: var(--bg-surface);
   background-color: var(--primary-600);
   padding: 15px 30px;

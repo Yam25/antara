@@ -11,7 +11,7 @@ function Header({ title, about, contact, projects, links }) {
         <button className="contact">
           {' '}
           {contact}
-          <i class="fa-solid fa-arrow-right"></i>{' '}
+          <i className="fa-solid fa-arrow-right"></i>{' '}
         </button>
       </nav>
     </div>
