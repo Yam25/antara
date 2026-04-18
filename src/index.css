@@ -1,32 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
-  --bg-main: #DFD4E2;
+  --bg-main: #F6F5FA;
+  --bg-surface: #FFFFFF;
 
-  --text-primary: #502116;
-  --text-secondary: #8E5A42;
+  --text-primary: #1E1B2E;
+  --text-secondary: #6B7280;
+  --text-muted: #9CA3AF;
 
-  --accent-primary: #D2B0B3;
-  --accent-secondary: #B78C87;
+  --primary-600: #6B4EFF;
+  --primary-700: #5839f1;
+  --primary-500: #8B6CFF;
+  --primary-100: #EAE7FF;
 
-  --surface: #F3EDEE;
-  --border: #CBBFC2;
+  --accent-rose: #FF7EB8;
+  --accent-green: #22C55E;
 
-  --gradient-main: linear-gradient(135deg, #D2B0B3, #8E5A42);
+  --border: #E5E7EB;
+
+  --gradient-hero: linear-gradient(
+    135deg,
+    rgba(107, 78, 255, 0.35),
+    rgba(255, 126, 184, 0.25)
+  );
+
+  --gradient-overlay: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.1)
+  );
 }
 
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Global styles */
 body {
-  background-color: var(--bg-main);
+  font-family: 'Inter', sans-serif;
+  background: var(--bg-main);
   color: var(--text-primary);
-  font-family: 'Inter';
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
 }

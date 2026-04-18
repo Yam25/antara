@@ -1,11 +1,16 @@
 import './Header.css'
 
-function Header({title}) {
+function Header({title, about, contact, projects, links}) {
   return (
-    <header className="header-container">
-      {/* <img className = "header-img" src="antara.png" alt="antara logo" width="70" /> */}
-      <h1 className="header-title">{title}</h1>
-    </header>
+    <div className="header-container">
+      <h1 className="title">{title}</h1>
+      <nav className="nav-links">
+        <a className="about">  {about} </a>
+        <a className="projects">  {projects} </a>
+        <a className="links">{links}</a>
+        <button className="contact"> {contact}<i class="fa-solid fa-arrow-right"></i> </button>
+      </nav>
+    </div>
   )
 }
 
