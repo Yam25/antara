@@ -24,13 +24,13 @@
 }
 
 .nav-links i {
-margin-left : 10px;
+  margin-left: 10px;
 }
 
-.contact{
-  color : var(--bg-surface);
-  background-color:  var(--primary-600);
-  padding : 15px 30px;
+.contact {
+  color: var(--bg-surface);
+  background-color: var(--primary-600);
+  padding: 15px 30px;
   border: none;
   border-radius: 30px;
   font-size: 15px;

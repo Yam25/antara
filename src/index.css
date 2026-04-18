@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
-  --bg-main: #F6F5FA;
-  --bg-surface: #FFFFFF;
+  --bg-main: #f6f5fa;
+  --bg-surface: #ffffff;
 
-  --text-primary: #1E1B2E;
-  --text-secondary: #6B7280;
-  --text-muted: #9CA3AF;
+  --text-primary: #1e1b2e;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
 
-  --primary-600: #6B4EFF;
+  --primary-600: #6b4eff;
   --primary-700: #5839f1;
-  --primary-500: #8B6CFF;
-  --primary-100: #EAE7FF;
+  --primary-500: #8b6cff;
+  --primary-100: #eae7ff;
 
-  --accent-rose: #FF7EB8;
-  --accent-green: #22C55E;
+  --accent-rose: #ff7eb8;
+  --accent-green: #22c55e;
 
-  --border: #E5E7EB;
+  --border: #e5e7eb;
 
   --gradient-hero: linear-gradient(
     135deg,

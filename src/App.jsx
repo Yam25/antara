@@ -48,7 +48,13 @@ function App() {
   ]
   return (
     <>
-      <Header title="Antara" about="About" contact="Get in Touch" projects="Projects" links="Links"/>
+      <Header
+        title="Antara"
+        about="About"
+        contact="Get in Touch"
+        projects="Projects"
+        links="Links"
+      />
       <Hero />
       {sections.map((section) => {
         return (
