@@ -52,8 +52,6 @@ The focus is on minimalism, clarity, and subtle interactions that enhance usabil
 ## 🔗 Connect with Me
 
 * 📩 [yaminiiyengar10@gmail.com](mailto:yaminiiyengar10@gmail.com)
-* 💼 LinkedIn
-* 💻 GitHub
 
 ---
 
