@@ -1,5 +1,5 @@
 .hero {
-  background-image: var(--gradient-hero), url('hero.jpeg');
+  background-image: var(--gradient-hero), url('/hero.jpeg');
   min-height: 70vh;
   background-size: cover;
   background-position: center 68%;
