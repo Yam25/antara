@@ -67,7 +67,7 @@
   margin-bottom: 10px;
 }
 
-.socials-icons {
+.social-icons {
   display: flex;
   gap: 15px;
   font-size: 20px;
@@ -77,11 +77,8 @@
 .footer-explore-items a {
   text-decoration: none;
   color: inherit;
-}
-
-.social-icons a:visited,
-.footer-explore-items a:visited {
-  color: inherit;
+  all: unset;
+  cursor: pointer;
 }
 
 .connect {

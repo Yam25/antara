@@ -10,7 +10,7 @@ function Footer() {
             A space for my dreams, stories <br />
             and everything in between.
           </p>
-          <div className="socials-icons">
+          <div className="social-icons">
             <a href="https://instagram.com/_yamini_iyengar_" target="_blank">
               <i className="fa-brands fa-instagram"></i>
             </a>
