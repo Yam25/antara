@@ -1,5 +1,8 @@
 name: Deploy to GitHub Pages
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 on:
   release:
     types: [created]
@@ -34,7 +37,7 @@ jobs:
         run: npm run build
 
       - name: Upload dist
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v
         with:
           path: ./dist
 
