@@ -8,11 +8,11 @@ function Header({ title, about, contact, projects, links }) {
         <a className="about"> {about} </a>
         <a className="projects"> {projects} </a>
         <a className="links">{links}</a>
-        <button className="contact">
+        <a className="contact" href="#footer">
           {' '}
           {contact}
           <i className="fa-solid fa-arrow-right"></i>{' '}
-        </button>
+        </a>
       </nav>
     </div>
   )

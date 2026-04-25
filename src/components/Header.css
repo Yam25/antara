@@ -9,9 +9,8 @@
 .title {
   font-family: 'Playfair Display', serif;
   font-size: 35px;
-  color:var(--text-primary);
+  color: var(--text-primary);
   font-weight: lighter;
-
 }
 
 .nav-links {
@@ -31,7 +30,8 @@
   margin-left: 10px;
 }
 
-.contact, .nav-links a {
+.contact,
+.nav-links a {
   color: var(--bg-surface);
   background-color: var(--primary-600);
   padding: 15px 30px;
@@ -39,6 +39,7 @@
   border-radius: 30px;
   font-size: 15px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .contact:hover {

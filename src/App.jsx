@@ -1,6 +1,7 @@
 import './App.css'
 import Hero from './components/Hero'
 import Section from './components/Section'
+import Footer from './components/Footer'
 
 function App() {
   const sections = [
@@ -57,6 +58,7 @@ function App() {
           />
         )
       })}
+      <Footer />
     </>
   )
 }

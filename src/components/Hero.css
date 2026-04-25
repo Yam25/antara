@@ -1,31 +1,28 @@
 .hero {
-background-image:
-  var(--gradient-hero),
-
-  url("hero.jpeg");
+  background-image: var(--gradient-hero), url('hero.jpeg');
   min-height: 70vh;
   background-size: cover;
   background-position: center 68%;
   background-repeat: no-repeat;
 }
 
-.hero-contents{
-  margin:40px 32px;
+.hero-contents {
+  margin: 40px 32px;
   padding: 20px 30px;
 }
 
-.hero-title{
+.hero-title {
   font-family: 'Playfair Display', serif;
   font-size: 40px;
   font-weight: lighter;
   word-spacing: 10%;
-  color:var(--text-primary);
+  color: var(--text-primary);
 }
 
 .hero-second {
   font-family: 'Playfair Display', serif;
-  font-style: normal; 
-  font-size: 35px; 
+  font-style: normal;
+  font-size: 35px;
   font-weight: lighter;
   color: var(--text-primary);
 }
@@ -36,22 +33,20 @@ background-image:
   font-style: italic;
 }
 
-.hero-text{
-  font-family: "Inter";
+.hero-text {
+  font-family: 'Inter';
   margin-top: 30px;
   font-size: 17px;
-  color:var(--text-secondary);
+  color: var(--text-secondary);
   font-weight: lighter;
-
 }
 
-.hero-texts{
-  font-family: "Inter";
+.hero-texts {
+  font-family: 'Inter';
   margin-top: 5px;
   font-size: 17px;
-  color:var(--text-secondary);
+  color: var(--text-secondary);
   font-weight: lighter;
-
 }
 .explore {
   margin-top: 30px;
@@ -61,7 +56,7 @@ background-image:
 
   color: var(--text-secondary);
 
-  transform: rotate(-2deg);   /* slight handwritten tilt */
+  transform: rotate(-2deg); /* slight handwritten tilt */
   display: inline-block;
 }
 .explore {
