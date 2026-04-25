@@ -48,22 +48,17 @@
   color: var(--text-secondary);
   font-weight: lighter;
 }
-.explore {
+.hero-explore {
   margin-top: 30px;
-
   font-family: 'Caveat', cursive;
   font-size: 22px;
-
   color: var(--text-secondary);
-
-  transform: rotate(-2deg); /* slight handwritten tilt */
+  transform: rotate(-2deg);
   display: inline-block;
-}
-.explore {
   opacity: 0.8;
 }
 
-.explore:hover {
+.hero-explore:hover {
   color: var(--primary-600);
   transform: rotate(-2deg) translateY(2px);
   transition: 0.2s ease;

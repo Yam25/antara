@@ -43,7 +43,18 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  background: var(--bg-main);
+  background:
+    radial-gradient(
+      circle at 25% 30%,
+      rgba(139, 108, 255, 0.18),
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 75% 70%,
+      rgba(255, 126, 184, 0.15),
+      transparent 50%
+    ),
+    linear-gradient(180deg, var(--bg-main), var(--bg-main));
   color: var(--text-primary);
 }
 

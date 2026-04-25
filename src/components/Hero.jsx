@@ -21,7 +21,7 @@ function Hero() {
           Places that inspire me. Things that bring me joy.
         </p>
         <p className="hero-texts">Dreams I'm chasing — all in one place.</p>
-        <p className="explore">Explore my world ↓</p>
+        <p className="hero-explore">Explore my world ↓</p>
       </div>
     </div>
   )
