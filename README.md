@@ -13,21 +13,21 @@ It emphasizes clean design, easy navigation, and thoughtful UI details that make
 
 ## 🚀 Features
 
-* 🎨 Clean and modern UI design
-* 📱 Fully responsive layout
-* 🧭 Smooth scrolling and section-based navigation
-* 🧩 Component-based architecture using React
-* ✨ Interactive elements and hover effects
-* 🎯 User-friendly layout focused on simplicity
+- 🎨 Clean and modern UI design
+- 📱 Fully responsive layout
+- 🧭 Smooth scrolling and section-based navigation
+- 🧩 Component-based architecture using React
+- ✨ Interactive elements and hover effects
+- 🎯 User-friendly layout focused on simplicity
 
 ---
 
 ## 🛠️ Tech Stack
 
-* React
-* HTML5
-* CSS3
-* JavaScript
+- React
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
@@ -43,23 +43,23 @@ The focus is on minimalism, clarity, and subtle interactions that enhance usabil
 
 ## 📌 Current Focus
 
-* Refining UI/UX for better visual consistency
-* Improving layout spacing and responsiveness
-* Enhancing overall user flow
+- Refining UI/UX for better visual consistency
+- Improving layout spacing and responsiveness
+- Enhancing overall user flow
 
 ---
 
 ## 🔗 Connect with Me
 
-* 📩 [yaminiiyengar10@gmail.com](mailto:yaminiiyengar10@gmail.com)
+- 📩 [yaminiiyengar10@gmail.com](mailto:yaminiiyengar10@gmail.com)
 
 ---
 
 ## 🌱 Future Improvements
 
-* Backend integration
-* Smarter interactive features
-* Performance optimization
+- Backend integration
+- Smarter interactive features
+- Performance optimization
 
 ---
 
