@@ -7,19 +7,19 @@ function App() {
   const categoriesList = [
     {
       title: 'Places',
-      icon: <i class="fa-solid fa-location-dot"></i>
+      icon: <i className="fa-solid fa-location-dot"></i>
     },
     {
       title: 'Hobbies',
-      icon: <i class="fa-solid fa-heart"></i>
+      icon: <i className="fa-solid fa-heart"></i>
     },
     {
       title: 'Career',
-      icon: <i class="fa-solid fa-briefcase"></i>
+      icon: <i className="fa-solid fa-briefcase"></i>
     },
     {
       title: 'Moments',
-      icon: <i class="fa-solid fa-clock"></i>
+      icon: <i className="fa-solid fa-clock"></i>
     }
   ]
   return (
