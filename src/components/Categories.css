@@ -1,0 +1,27 @@
+.categories-list{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 40px 32px;
+}
+
+.category-title{
+  font-size: 15px;
+  color: var(--text-primary);
+  padding: 10px 20px;
+  border: 1px solid var(--text-primary);
+  border-radius: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.category-title:hover {
+  background-color: var(--primary-600);
+  color: var(--bg-surface);
+  border: none;
+}
+
+.category-title i {
+  font-size: 15px;
+  margin-right: 10px;
+}
