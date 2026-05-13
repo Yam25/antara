@@ -1,0 +1,38 @@
+.cards {
+  position: relative;
+  width: 100%;
+  height: 420px;
+  border-radius: 24px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: var(--bg-surface);
+}
+
+.cards img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.cards h2 {
+  position: absolute;
+  bottom: 70px;
+  left: 24px;
+
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: white;
+}
+
+.cards p {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+
+  width: 80%;
+
+  color: white;
+  font-size: 15px;
+  line-height: 1.5;
+}

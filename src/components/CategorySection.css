@@ -1,0 +1,25 @@
+.category-section {
+  margin: 60px 32px;
+}
+
+.section-header {
+  margin-bottom: 30px;
+}
+
+.section-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+  font-weight: lighter;
+  color: var(--text-primary);
+}
+
+.section-header p {
+  color: var(--text-secondary);
+  margin-top: 8px;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.card-container {
+  width: 100%;
+}

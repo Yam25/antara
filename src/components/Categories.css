@@ -1,4 +1,4 @@
-.categories-list{
+.categories-list {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -6,7 +6,7 @@
   margin: 40px 32px;
 }
 
-.category-title{
+.category-title {
   font-size: 15px;
   color: var(--text-primary);
   padding: 10px 20px;
@@ -16,12 +16,12 @@
   text-decoration: none;
 }
 
-.category-title:hover {
+.category-title:hover,
+.category-title.active {
   background-color: var(--primary-600);
   color: var(--bg-surface);
   border: none;
 }
-
 .category-title i {
   font-size: 15px;
   margin-right: 10px;
