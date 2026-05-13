@@ -1,25 +1,118 @@
 .category-section {
-  margin: 60px 32px;
+  margin: 0 20px;
+  overflow: hidden;
 }
 
+/* ── Section Header ── */
 .section-header {
-  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 28px;
+  padding: 0 16px;
 }
 
-.section-header h1 {
+.section-header__left h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 35px;
-  font-weight: lighter;
+  font-size: 28px;
+  font-weight: 400;
   color: var(--text-primary);
+  margin: 0 0 6px;
 }
 
-.section-header p {
+.section-header__left p {
   color: var(--text-secondary);
-  margin-top: 8px;
-  font-size: 17px;
-  font-weight: lighter;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
 }
 
-.card-container {
-  width: 100%;
+.section-header__right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-count {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-right: 4px;
+}
+
+/* ── Header nav buttons ── */
+.nav-btn--header {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--surface, #fff);
+  border: 1.5px solid var(--border, #e5e7eb);
+  color: var(--primary-600, #6b4eff);
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  line-height: 1;
+}
+
+.nav-btn--header:hover {
+  background: var(--primary-600, #6b4eff);
+  color: #fff;
+  border-color: var(--primary-600, #6b4eff);
+  transform: scale(1.05);
+}
+
+/* ── Swiper ── */
+.swiper-wrapper-outer {
+  position: relative;
+}
+
+.card-swiper {
+  padding: 16px 8px 64px !important;
+  overflow: visible !important;
+}
+
+/* Scale down non-active slides */
+.card-swiper .swiper-slide {
+  transition:
+    transform 0.4s ease,
+    opacity 0.4s ease;
+  transform: scale(0.93);
+  opacity: 0.75;
+}
+
+.card-swiper .swiper-slide-active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* ── Pagination ── */
+.swiper-pagination-bullet {
+  background: #d6c7ff !important;
+  opacity: 1 !important;
+  width: 8px !important;
+  height: 8px !important;
+  transition: width 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary-600, #6b4eff) !important;
+  width: 24px !important;
+  border-radius: 20px !important;
+}
+
+.swiper-pagination {
+  bottom: 16px !important;
+}
+
+/* Hide default swiper nav arrows — using custom header buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
 }

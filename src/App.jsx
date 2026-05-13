@@ -19,6 +19,46 @@ function App() {
           summary:
             'I enjoyed the snow, Loved the weather, it makes dress up cozy and I love winters, nature',
           image: 'hero.jpeg',
+          status: 'Experienced',
+          location: 'Manali, India',
+        },
+        {
+          name: 'Goa',
+          summary:
+            'The party, beach, cafes, dressing is amazing, weather is a bit no for me in summer',
+          image: 'hero.jpeg',
+          status: 'Experienced',
+          location: 'Goa, India',
+        },
+        {
+          name: 'Manali',
+          summary:
+            'I enjoyed the snow, Loved the weather, it makes dress up cozy and I love winters, nature',
+          image: 'hero.jpeg',
+          status: 'Experienced',
+        },
+        {
+          name: 'Manali',
+          summary:
+            'I enjoyed the snow, Loved the weather, it makes dress up cozy and I love winters, nature',
+          image: 'hero.jpeg',
+          status: 'Experienced',
+        },
+      ],
+    },
+
+    {
+      title: 'Hobbies',
+      icon: <i className="fa-solid fa-heart"></i>,
+      sectionTitle: 'Things I Love Doing',
+      sectionSubtitle:
+        'Little hobbies that make life feel lighter and happier.',
+      items: [
+        {
+          name: 'Manali',
+          summary:
+            'I enjoyed the snow, Loved the weather, it makes dress up cozy and I love winters, nature',
+          image: 'hero.jpeg',
         },
         {
           name: 'Goa',
@@ -32,6 +72,27 @@ function App() {
             'I enjoyed the snow, Loved the weather, it makes dress up cozy and I love winters, nature',
           image: 'hero.jpeg',
         },
+      ],
+    },
+
+    {
+      title: 'Career',
+      icon: <i className="fa-solid fa-briefcase"></i>,
+      sectionTitle: 'Career & Growth',
+      sectionSubtitle: 'Building skills, confidence, and the life I dream of.',
+      items: [
+        {
+          name: 'Manali',
+          summary:
+            'I enjoyed the snow, Loved the weather, it makes dress up cozy and I love winters, nature',
+          image: 'hero.jpeg',
+        },
+        {
+          name: 'Goa',
+          summary:
+            'The party, beach, cafes, dressing is amazing, weather is a bit no for me in summer',
+          image: 'hero.jpeg',
+        },
         {
           name: 'Manali',
           summary:
@@ -42,28 +103,32 @@ function App() {
     },
 
     {
-      title: 'Hobbies',
-      icon: <i className="fa-solid fa-heart"></i>,
-      sectionTitle: 'Things I Love Doing',
-      sectionSubtitle:
-        'Little hobbies that make life feel lighter and happier.',
-      items: [],
-    },
-
-    {
-      title: 'Career',
-      icon: <i className="fa-solid fa-briefcase"></i>,
-      sectionTitle: 'Career & Growth',
-      sectionSubtitle: 'Building skills, confidence, and the life I dream of.',
-      items: [],
-    },
-
-    {
       title: 'Moments',
       icon: <i className="fa-solid fa-clock"></i>,
       sectionTitle: 'Moments I Want to Remember',
       sectionSubtitle: 'Memories, experiences, and phases that shaped me.',
-      items: [],
+      items: [
+        {
+          name: 'Manali',
+          summary:
+            'I enjoyed the snow, Loved the weather, it makes dress up cozy and I love winters, nature',
+          image: 'hero.jpeg',
+          location: 'Manali, India',
+          status: 'Experienced',
+        },
+        {
+          name: 'Goa',
+          summary:
+            'The party, beach, cafes, dressing is amazing, weather is a bit no for me in summer',
+          image: 'hero.jpeg',
+        },
+        {
+          name: 'Manali',
+          summary:
+            'I enjoyed the snow, Loved the weather, it makes dress up cozy and I love winters, nature',
+          image: 'hero.jpeg',
+        },
+      ],
     },
   ]
 
